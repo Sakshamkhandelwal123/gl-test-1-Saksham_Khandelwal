@@ -1,0 +1,39 @@
+.container {
+    background: rgb(87, 171, 19);
+    min-height: 15vh;
+    padding: 15px;
+    display: flex;
+}
+
+p {
+    font-size: 25px;
+}
+
+.row {
+    background-color: antiquewhite;
+    min-height: 60vh;
+    font-size: 50px;
+    padding: 20px;
+    display: flex;
+}
+
+.row1 {
+    padding: 15px;
+    flex-basis: 100px;
+    flex-grow: 2;
+    flex-shrink: 5;
+}
+
+.row2 {
+    background-color: white;
+    padding: 15px;
+    flex-basis: 200px;
+    flex-grow: 2;
+    flex-shrink: 5;
+}
+.row3 {
+    padding: 15px;
+    flex-basis: 100px;
+    flex-grow: 2;
+    flex-shrink: 5;
+}
